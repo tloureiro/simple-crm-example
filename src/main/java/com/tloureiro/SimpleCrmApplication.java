@@ -86,9 +86,9 @@ public class SimpleCrmApplication {
 				contact1.setAddress(address);
 					
 					Organization organization = new Organization();
-					organization.setName("Avanti");
+					organization.setName("My company");
 					organization.setPhone("22902293");
-					organization.setEmail("webmaster@avantisystems.com");
+					organization.setEmail("webmaster@mycompany.com");
 					organization.setAddress(address);
 					
 					organization.setOrganizationType(organizationTypeRepository.findByNameContainingIgnoreCase("company").get(0));
