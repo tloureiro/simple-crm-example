@@ -6,3 +6,7 @@ The application "fat" jar is located inside the target folder. The jar contains 
 java -jar demo-1.jar
 
 Access: http://localhost:8080/
+
+# Accessing the application database
+To access the H2 embedded database that runs in the memory access the http://localhost:8080/console URL. 
+username: user, password: pwd
