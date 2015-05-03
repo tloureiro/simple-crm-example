@@ -3,7 +3,9 @@ A very very very simple CRM application built with Java Spring Boot, JPA, using 
 
 # How to run
 The application "fat" jar is located inside the target folder. The jar contains everything necessary to run the application (embedded database/server)
+```
 java -jar demo-1.jar
+```
 
 Access: http://localhost:8080/
 
